@@ -15,7 +15,6 @@ def zamangeldi():
     chromeOptions.add_argument("--headless")
     driver = webdriver.Chrome(chrome_options=chromeOptions)
     driver = webdriver.Chrome()
-    driver.maximize_window()
     driver.get("https://instagram.com/login")
     driver.implicitly_wait(60)
     driver.delete_all_cookies()
