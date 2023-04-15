@@ -10,6 +10,10 @@ from hesap import account, password
 def zamangeldi():
     def wait():
         driver.implicitly_wait(20)
+    chromeOptions = webdriver.ChromeOptions()
+    chromeOptions.add_argument("--incognito")
+    chromeOptions.add_argument("--headless")
+    driver = webdriver.Chrome(chrome_options=chromeOptions)
     driver = webdriver.Chrome()
     driver.maximize_window()
     driver.get("https://instagram.com/login")
