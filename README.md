@@ -1,6 +1,6 @@
 # Otomatik Doğum Günü Kutlayıcı
 
-Bu Python programı, belirtilen tarihte belirli bir kişiye Instagram üzerinden doğum günü mesajı gönderir. Selenium kütüphanesi kullanılarak, kullanıcının giriş yapması ve bir mesaj göndermesi otomatikleştirilir. Eklediğiniz kullanıcıların doğum günlerini sizin yerinize kutlar
+Bu Python programı, belirtilen tarihte belirli bir kişiye Instagram üzerinden doğum günü mesajı gönderir. Selenium kütüphanesi kullanılarak, kullanıcının giriş yapması ve bir mesaj göndermesi otomatikleştirilmiştir. Eklediğiniz kullanıcıların doğum günlerini sizin yerinize kutlar
 
 ## Kurulum
 
