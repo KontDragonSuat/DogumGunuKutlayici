@@ -5,7 +5,6 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
 from hesap import account, password
 
 def zamangeldi():
@@ -13,7 +12,6 @@ def zamangeldi():
         driver.implicitly_wait(20)
     chromeOptions = webdriver.ChromeOptions()
     chromeOptions.add_argument("--incognito")
-    chromeOptions.add_argument("--headless")
     driver = webdriver.Chrome(chrome_options=chromeOptions)
     driver = webdriver.Chrome()
     driver.get("https://instagram.com/login")
