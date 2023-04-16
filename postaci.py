@@ -14,7 +14,7 @@ def zamangeldi():
     chromeOptions.add_argument("--incognito")
     driver = webdriver.Chrome(chrome_options=chromeOptions)
     driver = webdriver.Chrome()
-    driver.get("https://instagram.com/login")
+    driver.get("https://instagram.com")
     driver.implicitly_wait(60)
     driver.delete_all_cookies()
     driver.find_element(By.CSS_SELECTOR, "button[class='_a9-- _a9_1']").click()
