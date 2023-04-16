@@ -5,6 +5,7 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
 from hesap import account, password
 
 def zamangeldi():
